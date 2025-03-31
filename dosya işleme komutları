@@ -1,0 +1,67 @@
+PARDUS DA DOSYA İŞLEME KOMUTLARI
+
+Masaüstü dizinine gelmek için;
+    $ cd Masaüstü
+
+Güvenlik isimli text dosyası oluşturmak için;
+    /Masaüstü$ touch guvenlik.txt
+
+Tüm dosyaları listelemek için;
+    Masaüstü$ ls
+
+Güvenlik dosyasının içine yeni metin eklemek için;
+    cat > guvenlik.txt
+
+Bu komutu durdurmak için ;
+    Ctrl+D tuş kombinasyonu kullanılır.
+
+Güvenlik isimli dosyanın içini görüntülemek için ;
+    cat guvenlik.txt
+
+Güvenlik isimli dosyadaki metinlerin üzerine metin eklemesi yapmak için;
+    cat >> guvenlik.txt
+
+Dosyaları düzenli ve sıralı hale getirmek için;
+    cat -n /etc/passwd
+
+
+$ echo Cansu Tokyay > dosya1.txt
+$ echo GitHub Koleksiyon > dosya2.txt
+$ cat dosya1.txt dosya2.txt
+ Komut blogunun çıktısı;
+    Cansu Tokyay
+    GitHub Koleksiyon 
+                      şeklinde olur
+
+"Deneme.txt" dokümanı içinde 100 satırlık paragraf bulunmaktadır. bu paragrafın sadece 2 satırını görüntülemek çin komut;
+    more -n 2 Deneme.txt
+
+Sistem yapılandırmma dosyaları içinde bulunan "passwd" dokümanının ilk ve son 5 satırını görüntülemek için kullanılan komur;
+    head -n 5 /etc/passwd      ilk 5 satır;
+    tail -n 5 /etc/passwd      son 5 satır
+
+"Güvenlik.txt" isimli dosyadaki var olan tüm karakter sayısını bulan komut;
+    wc -c guvenlik.txt
+
+"Güvenlik.txt" isimli dosyadaki var olan tüm kelime sayısını bulan komut;
+    wc -w guvenlik.txt
+
+"ben.txt" ve "program.txt" isimlli iki dökümanı arada tab boşlluğu koyarak "birlestirme.txt" dokümanına eklemek için;
+    paste ben.txt program.txt > birlestirme.txt
+
+Komut dizini oluşturma;
+    mkdir komut
+
+Komut dizini içine "birlestirme.txt" dokimanını taşıyan komut;
+    mv birlestirme.txt komut
+
+Komut dizinini arşivleyen komut;
+    tar -cf arsivle.tar komut
+"yetkilendirme.txt" dokümanının erişim izinlerini isteyen komut;
+    ls -l yetkilendirme.txt
+
+"yetkilendirme.txt" dokümanının grup ve diğer kullanıcıların erişim izinlerine yazma yetkisi veren komut;
+    chmod gotw yetkilendirme.txt
+
+Vermiş olduğumuz yetkiyi kontrol etmek için kullanılan komut;
+    ls -l yetkilendirme.txt
