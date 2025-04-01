@@ -1,0 +1,37 @@
+HTML komutları < > arasına yazılır.
+Açılan bir etiket mutlaka kapatılmalıdır. Kapatma </  > şeklinde yapılır.
+Tüm html kodları <html> ile </html> arasında olmalıdır.
+<head> etiketi sayfa başlığı (title), link özellikleri, meta etiketlerinin kullanıldığı bölümdür. 
+head tagı, Html tagından sonra, body tagından önce bulunmak zorundadır.
+<title> tagı sayfanın tarayıcıdaki başlığının ne olacağını belirlemek için kullanılır. 
+  <title> Cansu Tokyay </title> 
+<body> etiketi belgenin tüm içeriğinin yer aldığı bölümdür.
+<alink> sayfadaki bir linke tıklandığı zaman oluşacak rengi belirtir.
+<background> belgenin arka plan resmini belirler. 
+<bgcolor> belgenin arka plan rengini belirler.
+<link> belgedeki bağlantı renklerini belirler.
+<text> belgedeki metin rengini belirler.
+<vlink> belgedeki ziyaret edilmiş linklerin rengini belirler.
+<br> bir alt satıra geçmek için kullanılır. Birden fazla kullanılırsa daha fazla boşluk bırakır.
+<p> etiketi paragraf oluşturmak için kullanılır. 
+    align="left" paragrafı sola dayalı olarak yazar.
+    align="right" paragrafı sağa dayalı olarak yazar.
+    align="center" paragrafı ortalayarak yazar.
+    align="justfy" paragrafı her iki yana yaslar.
+<hr> ekrana çizgi çizmek için kullanılır. 
+    width=" " genişlik
+    size=" " kalınlık
+    color= " " renk
+    align=" " çizilecek çizginin yönünü belirler.
+<b> istenilen metni kalın yazmak için kullanılır.
+<i> istenilen metni italik yazmak için kullanılır.,
+<u> istenilen metnin altını çizmek için kullanılır.
+<sup> üst simge için kullanılır.
+<sub> alt simge için kullanılır.
+<h> dokümana başlık eklemek için kullanılır. ( <h1>, h5> vb.)
+<font> kullanıldığı yerdeki metinlerin özelliklerini değiştirmek için kullanılır.
+    size=" " boyut
+    color=" " renk
+    face=" " yazı tipi
+
+
